@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abivarsha | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-color: #1f1b2e;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .navbar {
+      background: linear-gradient(90deg, #8a2be2, #4b0082);
+    }
+
+    .navbar-brand, .nav-link, footer {
+      color: white !important;
+    }
+
+    section {
+      padding: 60px 20px;
+    }
+
+    .hero {
+      background: linear-gradient(90deg, #1f1b2e, #2c1d55);
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #d1bfff;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      color: #b8a9e3;
+    }
+
+    .card {
+      background-color: #2a2540;
+      border: none;
+      border-radius: 15px;
+      color: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .skill-icons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .skill-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90px;
+    }
+
+    .skill-box img {
+      width: 60px;
+      height: 60px;
+      transition: transform 0.3s ease;
+    }
+
+    .skill-box img:hover {
+      transform: scale(1.1);
+    }
+
+    .skill-box span {
+      margin-top: 8px;
+      font-size: 0.9rem;
+      color: #d1c4e9;
+    }
+
+    footer {
+      background-color: #2c1d55;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Hello!<span style="color: #ffccff"> I AM ABIVARSHA</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Hello 👋, I'm a Web Developer</h1>
+    <p>I build things for the web</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>
+      I am a highly motivated Full Stack Python Developer and Data Analyst, currently seeking fresher opportunities to begin my professional journey in the tech industry. I have hands-on experience building responsive web applications using HTML, CSS, JavaScript, Python, Django, and MySQL.
+    </p>
+    <p>
+      Alongside development, I have a strong interest in data analysis and visualization. I work with tools like Python (Pandas, NumPy, Matplotlib), Excel, and Power BI to analyze data, build dashboards, and extract actionable insights. I have completed multiple academic and personal projects combining both web development and data storytelling.
+    </p>
+    <p>
+      I’m currently enhancing my skills through a Full Stack Development course at PySpiders, Bengaluru. I am eager to apply my knowledge, grow in a collaborative environment, and contribute effectively to data-driven or development teams.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="container text-center">
+    <h2>Skills</h2>
+    <div class="skill-icons">
+      <div class="skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+        <span>HTML</span>
+      </div>
+      <div class="skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+        <span>CSS</span>
+      </div>
+      <div class="skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+        <span>JavaScript</span>
+      </div>
+      <div class="skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+        <span>Python</span>
+      </div>
+      <div class="skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django">
+        <span>Django</span>
+      </div>
+      <div class="skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+        <span>MySQL</span>
+      </div>
+      <div class="skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap">
+        <span>Bootstrap</span>
+      </div>
+      <div class="skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+        <span>Git</span>
+      </div>
+      <div class="skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas">
+        <span>Pandas</span>
+      </div>
+      <div class="skill-box">
+        <img src="PowerBI.jpg" alt="Power BI">
+        <span>Power BI</span>
+      </div>
+      <div class="skill-box">
+         <img src="Excel.png" alt="Excel">
+        <span>Excel</span>
+      </div>
+    </div>
+  </section>
+<!-- DNA Background Animation -->
+
+ <!-- Education Section -->
+<section id="education" class="container">
+  <h2>Education</h2>
+  <div class="card mb-4 p-3">
+    <h5>B.E Computer Science and Engineering</h5>
+    <p>Completed Bachelor's degree in Computer Science and Engineering in Tamilnadu College of Engineering from 2021-2025</p>
+  </div>
+</section>
+<style>
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+  }
+
+  #dna-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+  }
+
+  #contact {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 40px 20px;
+    margin-top: 50px;
+    border-radius: 16px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    color: white;
+  }
+  #contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .contact-links a {
+    text-decoration: none;
+    color: #fff;
+    background: #6c63ff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  .contact-links a:hover {
+    background: #5146d8;
+  }
+</style>
+<canvas id="dna-canvas"></canvas>
+<script>
+  const canvas = document.getElementById('dna-canvas');
+  const ctx = canvas.getContext('2d');
+
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  resizeCanvas();
+  window.addEventListener('resize', resizeCanvas);
+
+  const count = 300;
+  const particles = [];
+
+  for (let i = 0; i < count; i++) {
+    particles.push({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      radius: 1.5 + Math.random() * 1.5,
+      dx: 0.3 * (Math.random() - 0.5),
+      dy: 0.3 * (Math.random() - 0.5)
+    });
+  }
+
+  function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = 'rgba(100, 100, 255, 0.5)';
+
+    particles.forEach(p => {
+      p.x += p.dx;
+      p.y += p.dy;
+
+      if (p.x < 0 || p.x > canvas.width) p.dx *= -1;
+      if (p.y < 0 || p.y > canvas.height) p.dy *= -1;
+
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+      ctx.fill();
+    });
+
+    requestAnimationFrame(animate);
+  }
+
+  animate();
+</script>
+
+<!-- Projects Section -->
+<section id="projects" class="container">
+  <h2>Projects</h2>
+
+  <!-- Data Analytics Projects -->
+  <h4 class="mt-4">Data Analytics Projects</h4>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card mb-4 p-3">
+        <h5>Sales Data Dashboard</h5>
+        <p>Analyzed and visualized sales data using Pandas and Matplotlib to uncover trends, region-wise heatmaps, and profit insights.</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card mb-4 p-3">
+        <h5>Health Data Analysis Dashboard</h5>
+        <p>Created an interactive health insights dashboard using Power BI and Excel, visualizing over 10,000 records including heart disease, BMI, cholesterol, and demographic filters.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Full Stack Python Projects -->
+  <h4 class="mt-5">Full Stack Python Projects</h4>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card mb-4 p-3">
+        <h5>Fitglow Website</h5>
+        <p>Developed a full-stack cosmetic and gym product site using Django and MySQL with features like product listing, cart, and user login.</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card mb-4 p-3">
+        <h5>Quiz Game (Frontend)</h5>
+        <p>Developed a quiz web app using HTML, CSS, and JavaScript. It presents questions, evaluates answers, and displays the correct option for any incorrect user response.</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card mb-4 p-3">
+        <h5>Cyberbullying Detection on Social Media</h5>
+        <p>Built a machine learning model to classify social media comments as bullying or non-bullying using NLP techniques and classification algorithms like Logistic Regression and SVM.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <div class="contact-links">
+    <a href="mailto:abivarshaofficial@gmail.com">📧 abivarshakamaraj031@gmail.com</a>
+    <a href="https://github.com/Abivarsha" target="_blank">💻 GitHub Profile</a>
+    <a href="https://www.linkedin.com/in/abivarsha03/" target="_blank">🔗 LinkedIn</a>
+    <a href="tel:9342713943">📞 9342713943</a>
+  </div>
+</section>
+
+
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Abivarsha | All Rights Reserved
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
